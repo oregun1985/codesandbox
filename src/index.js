@@ -81,11 +81,23 @@
 // console.log(num2);
 // console.log(arr3);
 
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
-const arr6 = [...arr4];
-console.log(arr6);
+// const arr6 = [...arr4];
+// console.log(arr6);
 
-const arr7 = [...arr4, ...arr5];
-console.log(arr7);
+// const arr7 = [...arr4, ...arr5];
+// console.log(arr7);
+const nameArr = ["isd", "jnyaa", "neko", "inu"];
+// for(let index=0;index<nameArr.length;index++){
+//     console.log(nameArr[index]);
+// }
+
+// const nameArr2 = nameArr.map((name)=>{
+//     return name;
+// });
+
+// console.log(nameArr2);
+
+nameArr.map((name) => console.log(name));
